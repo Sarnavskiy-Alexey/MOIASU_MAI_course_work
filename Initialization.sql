@@ -1,4 +1,8 @@
+-- DROP DATABASE project_organization;
+
 CREATE DATABASE project_organization;
+
+use project_organization;
 
 -- reference depth 0
 -- Типы документов
@@ -50,7 +54,6 @@ CREATE TABLE projects (
 
 -- Финансы
 CREATE TABLE finances (
-    id_finance INT PRIMARY KEY NOT NULL CHECK (id_finance > 0),
     fin_sum DECIMAL(15, 3) NOT NULL,
     project_id INT,
     fin_target_id INT,
