@@ -1,0 +1,4 @@
+1,not in progress
+2,in progress
+3,finished
+4,verified
